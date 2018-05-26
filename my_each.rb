@@ -1,6 +1,7 @@
 def my_each(array)
   array = [1, 2, 3, 4, 5]
-  while array < array.length do |i|
+  while array < array.length
+  
     puts i 
   end
   array
